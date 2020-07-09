@@ -5,13 +5,6 @@
   To learn more about this file see: https://angular.io/config/solution-tsconfig.
 */
 {
-  "compilerOptions": {   
-    "experimentalDecorators": true, /* Enables experimental support for ES7 decorators. */
-    "emitDecoratorMetadata": true, /* Enables experimental support for emitting type metadata for decorators. */
-  },
-  "include": [
-    "src/**/*.ts"
-  ],
   "files": [],
   "references": [
     {
@@ -22,6 +15,6 @@
     },
     {
       "path": "./e2e/tsconfig.json"
-    },
-  ]
+    }
+]
 }

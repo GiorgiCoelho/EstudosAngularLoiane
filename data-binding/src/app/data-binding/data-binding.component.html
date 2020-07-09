@@ -1,0 +1,15 @@
+<section>
+   <article>
+       <h3>Input Properties</h3>
+       
+       <app-curso [nome]="nomeCurso"></app-curso>
+   </article>
+</section>
+
+<section>
+    <article>
+        <h3>Output Properties</h3>
+        
+        <app-contador [value]="valor" (mudouValor)="onMudouValor($event)"></app-contador>
+    </article>
+ </section>
